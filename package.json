@@ -1,0 +1,32 @@
+{
+  "name": "crm-backend",
+  "version": "0.0.1",
+  "description": "Backend to serve data for my personal projects",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wicklandliam/crm-backend.git"
+  },
+  "author": "Liam Wickland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wicklandliam/crm-backend/issues"
+  },
+  "homepage": "https://github.com/wicklandliam/crm-backend#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.58.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "dotenv-flow": "^4.1.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
